@@ -1,0 +1,16 @@
+.DS_Store
+
+dist.*/
+dist/
+env.sh
+i18n/.i18n/.cache
+i18n/.i18n/.hash
+node_modules/
+sh/*.js
+src/conf.js
+src/index.html
+src/styl/plugin.styl
+src/styl/svg.styl
+vite.config.js.timestamp-*.mjs
+src/lib/I18N.js
+public/i18n/
