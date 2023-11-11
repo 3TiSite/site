@@ -20,8 +20,8 @@ set +o allexport
 # BACKBLAZE_secretAccessKey=
 # BACKBLAZE_endpoint=https://s3.us-west-004.backblazeb2.com
 
-#SITE_OSSPUT_BUCKET=xxai-blog-web
 # SITE_BACKBLAZE_url=https://f004.backblazeb2.com/file/$SITE_OSSPUT_BUCKET
+#SITE_OSSPUT_BUCKET=xxai-blog-web
 
 #CLOUDFLARE_KEY=
 #CLOUDFLARE_EMAIL=
