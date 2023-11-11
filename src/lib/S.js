@@ -45,7 +45,9 @@ export default new Proxy(
   {
     get:(_, url)=>async (...args)=>{
       var opt = {};
-      if(args.length)opt.body = JSON.stringify(args);
+      if(args.length){
+        opt.body = JSON.stringify(args.length==1?args[0]:args)
+      };
       return req(url, opt)
     }
   }
