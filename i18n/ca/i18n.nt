@@ -4,3 +4,5 @@ close: Tanca
 refresh: Actualització
 loading: Carregant
 ok: D'acord
+config: Config
+rm: Eliminar

@@ -4,3 +4,5 @@ close: 關閉
 refresh: 刷新
 loading: 加載中
 ok: 確認
+config: 配置
+rm: 移除

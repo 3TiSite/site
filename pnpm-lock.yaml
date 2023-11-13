@@ -6,17 +6,20 @@ settings:
 
 dependencies:
   '@~3/boxmd':
-    specifier: ^0.1.6
-    version: 0.1.6
+    specifier: ^0.1.7
+    version: 0.1.7
   '@~3/captcha':
-    specifier: ^0.1.33
-    version: 0.1.33
+    specifier: ^0.1.35
+    version: 0.1.35
   '@~3/focus':
     specifier: ^0.0.1
     version: 0.0.1
   '@~3/has-mouse':
     specifier: ^0.0.1
     version: 0.0.1
+  '@~3/menu':
+    specifier: ^0.1.14
+    version: 0.1.14
   '@~3/svelte_mount':
     specifier: ^0.0.1
     version: 0.0.1
@@ -98,8 +101,8 @@ devDependencies:
     specifier: link:../plugin/auth
     version: link:../plugin/auth
   '@~3/box':
-    specifier: ^0.1.18
-    version: 0.1.18
+    specifier: ^0.1.19
+    version: 0.1.19
   '@~3/font':
     specifier: ^0.0.3
     version: 0.0.3
@@ -659,30 +662,30 @@ packages:
   /@types/ms@0.7.33:
     resolution: {integrity: sha512-AuHIyzR5Hea7ij0P9q7vx7xu4z0C28ucwjAZC0ja7JhINyCnOw8/DnvAPQQ9TfOlCtZAmCERKQX9+o1mgQhuOQ==}
 
-  /@~3/box@0.1.18:
-    resolution: {integrity: sha512-vQP/UwbC/P83TRaarxlm9y0wvMEC7jtDKG2LT2yxWtqNm5f4AGC+TJknZEDH0BxCizEvHuZxhUFWCeYC40tKzQ==}
+  /@~3/box@0.1.19:
+    resolution: {integrity: sha512-uOsfOHQzzVjEe8Ql+I6lvKnF76PXHLsRTQi6z/bIF+0ecpZBWfkF0j+WxKNudNVr9NsMMT3kfHsibsgTT86NkA==}
     dependencies:
       '@3-/on': 0.0.1
       '@~3/new': 0.1.1
       '@~3/svelte_mount': 0.0.1
 
-  /@~3/boxmd@0.1.6:
-    resolution: {integrity: sha512-KZDX6MugeWbkOYK4fCu52gwqt02ZYcTyzMDUbQz+tw4xcUV67ttssHCBc7QxA0WfqIxzdsKaTORWnEVN/Q5dmw==}
+  /@~3/boxmd@0.1.7:
+    resolution: {integrity: sha512-GN9mizEH/XKW1V3kmWCB+Pm23qXVq0gLxLvCm95siT5xNmclN9enVx6Eecnw8FTLgtw68RpHhbOXLt2x5w/0wQ==}
     dependencies:
-      '@~3/box': 0.1.18
+      '@~3/box': 0.1.19
       '@~3/md': 0.0.3
       '@~3/svelte_mount': 0.0.1
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@~3/captcha@0.1.33:
-    resolution: {integrity: sha512-QKPw6ZSkb41dMRhnzPWiAXSNHgRGGPfTX1zUXEOTXG9eKN1zltphl3uP87L/7p+sT5ZgRQlhtvLlDjG0fqcFpw==}
+  /@~3/captcha@0.1.35:
+    resolution: {integrity: sha512-JYJdSZCkp+7H1DqINFrChTbumrE6zUrIuhkwXFrfujccGIF0JSwHUHgJRIwTL4vo7TA4ey+u600/07P7ZnBnnA==}
     dependencies:
       '@3-/msgpack': 0.0.2
       '@3-/render': 0.0.1
       '@5-/captcha': 0.0.7
-      '@~3/box': 0.1.18
+      '@~3/box': 0.1.19
       '@~3/new': 0.1.1
     dev: false
 
@@ -729,6 +732,14 @@ packages:
       '@~3/wait': 0.0.4
     transitivePeerDependencies:
       - supports-color
+
+  /@~3/menu@0.1.14:
+    resolution: {integrity: sha512-knua9uEs3Nh5OQL5xfN6RW0WoYUdMG/P7DPtJ83qPc83IJ9q0nOON47dxX76tNt8aeOmmpcmuXCe6RbJgNJqVA==}
+    dependencies:
+      '@3-/on': 0.0.1
+      '@~3/new': 0.1.1
+      '@~3/svelte_mount': 0.0.1
+    dev: false
 
   /@~3/mouse@0.1.2:
     resolution: {integrity: sha512-Zj8Ng1bUZUeHHFUPKtqwRbCE7rlii/DCwmqCYceSVMHSRLj2tvkZYCYQcJpvASGqSaQNdp8Uknt9idnD7MxSKQ==}

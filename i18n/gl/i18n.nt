@@ -4,3 +4,5 @@ close: Pechar
 refresh: Actualizar
 loading: Cargando
 ok: Ok
+config: Config
+rm: Quitar

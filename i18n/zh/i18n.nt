@@ -7,3 +7,6 @@ refresh: 刷新
 loading: 加载中
 
 ok: 确认
+
+config: 配置
+rm: 移除

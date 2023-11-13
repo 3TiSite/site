@@ -4,3 +4,5 @@ close: ปิด
 refresh: รีเฟรช
 loading: กำลังโหลด
 ok: ตกลง
+config: การกำหนดค่า
+rm: ลบ
