@@ -6,6 +6,10 @@ import fBin from '@3-/fetch/fBinPrefix.js'
 import {API} from '~/conf.js'
 const fbin = fBin(API);
 
+var AUTH;
+
+export const setAuth = (f)=>AUTH=f;
+
 export const req = async (url, opt)=>{
   opt.method = opt.method || 'POST';
   opt.headers = opt.headers || {};
@@ -19,6 +23,14 @@ export const req = async (url, opt)=>{
       switch(status){
       case 417: // form error
         throw await r.json()
+      case 401:
+        return new Promise(
+          (resolve, reject)=>{
+            AUTH(
+              ()=>req(url,opt).then(resolve, reject)
+            );
+          }
+        );
       case 412: // captcha error
         return await captcha(
           url,

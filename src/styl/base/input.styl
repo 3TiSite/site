@@ -1,5 +1,5 @@
 // input[type]:not([type=radio], [type=checkbox]
-input:is([type=text], [type=password])
+input:is([type=text], [type=password], [type=email])
   border 1px solid #ccc
   border-radius 0
   box-sizing border-box
@@ -9,11 +9,11 @@ input:is([type=text], [type=password])
   padding 16px
   width 100%
 
-input:is([type=text], [type=password]):autofill
+input:is([type=text], [type=password], [type=email]):autofill
   background-clip text
   -webkit-background-clip text
 
-input:is([type=text], [type=password]) + label
+input:is([type=text], [type=password], [type=email]) + label
   background #fff
   border-radius 12px
   color #999
@@ -26,40 +26,40 @@ input:is([type=text], [type=password]) + label
   transition all 0.3s
   user-select none
 
-input:is([type=text], [type=password]):focus
+input:is([type=text], [type=password], [type=email]):focus
   border-color focus-color
   color #000
 
-input:is([type=text], [type=password]):focus + label
+input:is([type=text], [type=password], [type=email]):focus + label
   color focus-color
 
-input:is([type=text], [type=password]):hover
+input:is([type=text], [type=password], [type=email]):hover
   border-color hover-color
 
-input:is([type=text], [type=password]):hover + label
+input:is([type=text], [type=password], [type=email]):hover + label
   color hover-color
 
-input:is([type=text], [type=password]):disabled
+input:is([type=text], [type=password], [type=email]):disabled
   background #f9f9f9
   color #999
   display inline-block
   position relative
   user-select none
 
-input:is([type=text], [type=password]):disabled + label
+input:is([type=text], [type=password], [type=email]):disabled + label
   box-shadow 0 0 3px #ddd inset
   color #999
 
-input:is([type=text], [type=password])::-webkit-input-placeholder
+input:is([type=text], [type=password], [type=email])::-webkit-input-placeholder
   user-select none
 
-input:is([type=text], [type=password])::placeholder
+input:is([type=text], [type=password], [type=email])::placeholder
   user-select none
 
-input:is([type=text], [type=password]):disabled:hover
+input:is([type=text], [type=password], [type=email]):disabled:hover
   border 1px solid #ccc
 
-input:is([type=text], [type=password]):placeholder-shown + label
+input:is([type=text], [type=password], [type=email]):placeholder-shown + label
   background transparent
   color #999
   cursor text
