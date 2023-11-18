@@ -1,15 +1,9 @@
-import fBinMd from './fBinMd.js';
-
-import {
-  unpack
-} from '@3-/msgpack';
-
-import bintxt from '@3-/bintxt';
+import fMdJson from './fMdJson.js';
 
 import pair from '@3-/pair';
 
-const SITE = unpack((await fBinMd('site')));
+const SITE = await fMdJson('site');
 
-SITE.lang = pair(bintxt(SITE.lang));
+SITE.lang = pair(SITE.lang.split(';'));
 
 export default SITE;

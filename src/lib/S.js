@@ -32,12 +32,11 @@ export const req = async (url, opt)=>{
           }
         );
       case 412: // captcha error
-        return await captcha(
+        return captcha(
           url,
           opt.body,
           new Uint8Array(await r.arrayBuffer())
         );
-        break;
       default:
         // 避免 dialog 被立马关闭
         setTimeout(
