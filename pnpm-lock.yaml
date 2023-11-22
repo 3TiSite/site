@@ -29,9 +29,6 @@ devDependencies:
   '@3-/mark':
     specifier: ^0.0.3
     version: 0.0.3
-  '@3-/msgpack':
-    specifier: ^0.0.2
-    version: 0.0.2
   '@3-/on':
     specifier: ^0.0.1
     version: 0.0.1
@@ -74,9 +71,6 @@ devDependencies:
   '@~3/auth':
     specifier: link:../plugin/auth
     version: link:../plugin/auth
-  '@~3/box':
-    specifier: ^0.1.24
-    version: 0.1.24
   '@~3/boxmd':
     specifier: ^0.1.12
     version: 0.1.12
@@ -165,8 +159,8 @@ devDependencies:
     specifier: ^4.2.5
     version: 4.2.5
   svgo:
-    specifier: ^3.0.3
-    version: 3.0.3
+    specifier: ^3.0.4
+    version: 3.0.4
   vite:
     specifier: ^5.0.0
     version: 5.0.0(lightningcss@1.22.1)(stylus@0.62.0)
@@ -2066,8 +2060,8 @@ packages:
       periscopic: 3.1.0
     dev: true
 
-  /svgo@3.0.3:
-    resolution: {integrity: sha512-X4UZvLhOglD5Xrp834HzGHf8RKUW0Ahigg/08yRO1no9t2NxffOkMiQ0WmaMIbaGlVTlSst2zWANsdhz5ybXgA==}
+  /svgo@3.0.4:
+    resolution: {integrity: sha512-T+Xul3JwuJ6VGXKo/p2ndqx1ibxNKnLTvRc1ZTWKCfyKS/GgNjRZcYsK84fxTsy/izr91g/Rwx6fGnVgaFSI5g==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -2075,6 +2069,7 @@ packages:
       commander: 7.2.0
       css-select: 5.1.0
       css-tree: 2.3.1
+      css-what: 6.1.0
       csso: 5.0.5
       picocolors: 1.0.0
     dev: true
