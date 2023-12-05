@@ -7,3 +7,7 @@ ok: Жарайды ма
 config: Конфигурация
 rm: Жою
 setDone: Сәтті орнату
+create: Жасау
+name: Аты
+enable: Қосу
+disable: Өшіру

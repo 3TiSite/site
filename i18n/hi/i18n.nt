@@ -7,3 +7,7 @@ ok: ठीक है
 config: कॉन्फ़िग
 rm: निकालना
 setDone: सफलता स्थापित करना
+create: बनाएं
+name: नाम
+enable: सक्षम
+disable: अक्षम करना

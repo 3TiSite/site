@@ -7,3 +7,7 @@ ok: Ok
 config: Config
 rm: Alisin
 setDone: Pagtatakda ng Tagumpay
+create: Lumikha
+name: Pangalan
+enable: Paganahin
+disable: Huwag paganahin

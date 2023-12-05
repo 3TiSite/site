@@ -7,3 +7,7 @@ ok: Ne rregull
 config: Konfigurimi
 rm: Hiq
 setDone: Vendosja e suksesit
+create: Krijo
+name: Emri
+enable: Aktivizo
+disable: Çaktivizo

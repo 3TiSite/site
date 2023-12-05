@@ -7,3 +7,7 @@ ok: Ярар
 config: Конфигурация
 rm: Чыгар
 setDone: Уңыш кую
+create: Ярат
+name: Исем
+enable: Килеш
+disable: Сүндер

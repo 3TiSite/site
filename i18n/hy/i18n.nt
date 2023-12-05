@@ -7,3 +7,7 @@ ok: Լավ
 config: Կազմաձև
 rm: Հեռացնել
 setDone: Հաջողության կարգավորում
+create: Ստեղծել
+name: Անուն
+enable: Միացնել
+disable: Անջատել

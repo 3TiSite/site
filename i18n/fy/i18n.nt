@@ -7,3 +7,7 @@ ok: Ok
 config: Config
 rm: Weinimme
 setDone: Sukses ynstelle
+create: Meitsje
+name: Namme
+enable: Ynskeakelje
+disable: Utskeakelje

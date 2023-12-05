@@ -7,3 +7,7 @@ ok: Rendben
 config: Konfig
 rm: Távolítsa el
 setDone: Sikeres beállítás
+create: Teremt
+name: Név
+enable: Engedélyezze
+disable: Letiltás

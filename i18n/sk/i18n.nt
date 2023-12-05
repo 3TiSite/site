@@ -7,3 +7,7 @@ ok: Dobre
 config: Konfig
 rm: Odstrániť
 setDone: Nastavenie úspechu
+create: Vytvorte
+name: názov
+enable: Povoliť
+disable: Zakázať

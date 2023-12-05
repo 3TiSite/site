@@ -7,3 +7,7 @@ ok: Bine
 config: Config
 rm: Elimina
 setDone: Stabilirea succesului
+create: Crea
+name: Nume
+enable: Permite
+disable: Dezactivați

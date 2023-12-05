@@ -7,3 +7,7 @@ ok: خوب
 config: پیکربندی
 rm: برداشتن
 setDone: تنظیم موفقیت
+create: ايجاد كردن
+name: نام
+enable: فعال کردن
+disable: غیر فعال کردن

@@ -7,3 +7,7 @@ ok: Okay
 config: Konfig
 rm: Fjerne
 setDone: Indstilling succes
+create: skab
+name: Navn
+enable: Aktiver
+disable: Deaktiver

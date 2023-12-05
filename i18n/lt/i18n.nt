@@ -7,3 +7,7 @@ ok: Gerai
 config: konfig
 rm: Pašalinti
 setDone: Sėkmingas nustatymas
+create: Sukurti
+name: vardas
+enable: Įgalinti
+disable: Išjungti

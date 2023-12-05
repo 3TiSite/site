@@ -7,3 +7,7 @@ ok: De acuerdo
 config: configuración
 rm: Eliminar
 setDone: Estableciendo el éxito
+create: Crear
+name: Nombre
+enable: Permitir
+disable: Desactivar

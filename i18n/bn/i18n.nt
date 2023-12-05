@@ -7,3 +7,7 @@ ok: ঠিক আছে
 config: কনফিগার
 rm: অপসারণ
 setDone: সেটিং সফল
+create: সৃষ্টি
+name: নাম
+enable: সক্ষম করুন
+disable: নিষ্ক্রিয় করুন

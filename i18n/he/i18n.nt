@@ -7,3 +7,7 @@ ok: בסדר
 config: Config
 rm: לְהַסִיר
 setDone: הגדרת הצלחה
+create: לִיצוֹר
+name: שֵׁם
+enable: לְאַפשֵׁר
+disable: השבת

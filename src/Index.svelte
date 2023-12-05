@@ -34,8 +34,8 @@ page = (m,a)=>
   routeClear
   routeSetNoFound
 ] = Nav(
-  (_, func, url)=>
-    page func, {url}
+  (url, func, args)=>
+    page func, (args or {})
     return
 )
 
@@ -44,8 +44,9 @@ onI18n =>
   for [func, li] from Object.entries SITE.url
     for u from li
       if u.endsWith '/'
-        url = u.slice(0,-1)
-      route url, PAGE[func], u
+        u = u.slice(0,-1)
+      url = if u then u else '/'
+      route u, PAGE[func], {url}
   routeSetNoFound =>
     page h404,{}
     return
@@ -65,4 +66,3 @@ b
   flex-direction column
   width 100%
 </style>
-

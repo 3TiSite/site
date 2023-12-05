@@ -7,3 +7,7 @@ ok: باشە
 config: ڕێکخستن
 rm: لابردن
 setDone: ڕێکخستنی سەرکەوتن
+create: دروستکردن
+name: ناو
+enable: چالاک کردن
+disable: ناچالاک کردن

@@ -7,3 +7,7 @@ ok: Ok
 config: Konfig
 rm: Avlägsna
 setDone: Inställning Framgång
+create: Skapa
+name: namn
+enable: Gör det möjligt
+disable: Inaktivera

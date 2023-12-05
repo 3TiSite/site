@@ -8,9 +8,10 @@ if [ ! -d "node_modules" ]; then
   ni
 fi
 
+./sh/plugin.sh
 bun x plugin
-
 rm -rf node_modules/.vite vite.config.js.timestamp-*.mjs
+./sh/svg.var.coffee
 cd src
 rm -rf conf.js
 ln -s ../conf/dev.js conf.js

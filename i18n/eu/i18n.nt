@@ -7,3 +7,7 @@ ok: Ados
 config: Konfig
 rm: Kendu
 setDone: Arrakasta ezartzea
+create: Sortu
+name: Izena
+enable: Gaitu
+disable: Desgaitu

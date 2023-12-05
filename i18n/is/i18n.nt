@@ -7,3 +7,7 @@ ok: Allt í lagi
 config: Config
 rm: Fjarlægja
 setDone: Stilling Velgengni
+create: Búa til
+name: Nafn
+enable: Virkja
+disable: Slökkva

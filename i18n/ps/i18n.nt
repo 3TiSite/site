@@ -7,3 +7,7 @@ ok: سمه ده
 config: ترتیب
 rm: لرې کړئ
 setDone: د بریالیتوب ترتیب
+create: جوړ کړئ
+name: نوم
+enable: فعال کړئ
+disable: غیر فعال کړئ

@@ -27,21 +27,8 @@ bun x vite build
 cd src
 rm -rf conf.js
 cp ../conf/ol.js conf.js
-cd ..
-
-cd public
-
-bun x cep -c $DIR/sw.coffee -o .
-
-esbuild sw.js \
-  --minify \
-  --format=iife |
-  sed 's/^.\{6\}//; s/.\{6\}$//' >s.js
-
-rm sw.js
-
-cd ..
-
+cd $DIR
+./public.js.sh
 # bun x vite build
 
 # cd dist

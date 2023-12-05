@@ -7,3 +7,7 @@ ok: ตกลง
 config: การกำหนดค่า
 rm: ลบ
 setDone: การตั้งค่าความสำเร็จ
+create: สร้าง
+name: ชื่อ
+enable: เปิดใช้งาน
+disable: ปิดการใช้งาน

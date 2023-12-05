@@ -7,3 +7,7 @@ ok: ຕົກ​ລົງ
 config: ກຳນົດຄ່າ
 rm: ເອົາອອກ
 setDone: ການ​ຕັ້ງ​ຄ່າ​ສໍາ​ເລັດ​
+create: ສ້າງ
+name: ຊື່
+enable: ເປີດໃຊ້
+disable: ປິດໃຊ້ງານ

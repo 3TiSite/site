@@ -7,3 +7,7 @@ ok: 좋아요
 config: 구성
 rm: 제거하다
 setDone: 설정 성공
+create: 만들다
+name: 이름
+enable: 할 수 있게 하다
+disable: 장애를 입히다

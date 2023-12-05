@@ -7,3 +7,7 @@ ok: ঠিক আছে
 config: কনফিগ কৰক
 rm: আঁতৰোৱা
 setDone: সফলতা নিৰ্ধাৰণ কৰা
+create: সৃষ্টি কৰা
+name: নাম
+enable: সক্ষম কৰা
+disable: অক্ষম

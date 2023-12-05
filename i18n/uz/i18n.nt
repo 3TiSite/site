@@ -7,3 +7,7 @@ ok: Kelishdikmi
 config: Konfiguratsiya
 rm: O'chirish
 setDone: Muvaffaqiyatli sozlash
+create: Yaratmoq
+name: Ism
+enable: Yoqish
+disable: Oʻchirish

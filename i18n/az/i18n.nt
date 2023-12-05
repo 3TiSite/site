@@ -7,3 +7,7 @@ ok: Tamam
 config: konfiqurasiya
 rm: Sil
 setDone: Müvəffəqiyyətin qurulması
+create: Yaradın
+name: ad
+enable: Aktivləşdirin
+disable: Deaktiv edin

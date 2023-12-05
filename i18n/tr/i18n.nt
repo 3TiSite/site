@@ -7,3 +7,7 @@ ok: Tamam
 config: Yapılandırma
 rm: Kaldırmak
 setDone: Başarıyı Belirlemek
+create: Yaratmak
+name: İsim
+enable: Olanak vermek
+disable: Devre dışı bırakmak

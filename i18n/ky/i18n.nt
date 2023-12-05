@@ -7,3 +7,7 @@ ok: Макул
 config: Конфигурация
 rm: Алып салуу
 setDone: Ийгиликти орнотуу
+create: Түзүү
+name: аты
+enable: Иштетүү
+disable: Өчүрүү

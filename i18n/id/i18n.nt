@@ -7,3 +7,7 @@ ok: Oke
 config: Konfigurasi
 rm: Menghapus
 setDone: Menetapkan Kesuksesan
+create: Membuat
+name: Nama
+enable: Memungkinkan
+disable: Cacat

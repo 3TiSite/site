@@ -7,3 +7,7 @@ ok: እሺ
 config: ኮንፊግ
 rm: ኣወግድ
 setDone: ምቕማጥ ዓወት
+create: ፍጠር
+name: ሽም
+enable: ኣኽእል
+disable: ስንኩል

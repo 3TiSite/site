@@ -7,3 +7,7 @@ ok: U redu
 config: Konfiguracija
 rm: Ukloniti
 setDone: Postavljanje uspjeha
+create: Stvoriti
+name: Ime
+enable: Omogućiti
+disable: Onemogući

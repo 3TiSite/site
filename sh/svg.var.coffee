@@ -17,7 +17,7 @@ VAR = join(
 )
 
 out = [
-  ":root"
+  ":root{"
 ]
 
 for await fp from walkRel VAR
@@ -27,14 +27,11 @@ for await fp from walkRel VAR
   svg = read join VAR, fp
   svg = optimize(
     svg.trim()
-  ).data.replaceAll('#','%23').replaceAll(
-    '"'
-    '\\"'
-  )
+  ).data.replaceAll('#','%23')
   name = fp.charAt(0).toUpperCase() + fp.slice(1,-4)
-  out.push """  --svg#{name} url('data:image/svg+xml;utf8,#{svg}')"""
-
+  out.push """--svg#{name}:url('data:image/svg+xml;utf8,#{svg}');"""
+out.push '}'
 write(
-  join SRC, 'styl/svg.styl'
+  join SRC, 'styl/svg.css'
   out.join('\n')
 )

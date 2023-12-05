@@ -7,3 +7,7 @@ ok: نعم
 config: التكوين
 rm: يزيل
 setDone: نجاح الإعداد
+create: يخلق
+name: اسم
+enable: يُمكَِن
+disable: إبطال

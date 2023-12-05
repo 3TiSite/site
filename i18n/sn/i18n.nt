@@ -7,3 +7,7 @@ ok: Ok
 config: Config
 rm: Bvisa
 setDone: Kugadzirisa Kubudirira
+create: Create
+name: Zita
+enable: Enable
+disable: Disable

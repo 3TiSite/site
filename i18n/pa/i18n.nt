@@ -7,3 +7,7 @@ ok: ਠੀਕ ਹੈ
 config: ਸੰਰਚਨਾ
 rm: ਹਟਾਓ
 setDone: ਸੈੱਟ ਕਰਨ ਵਿੱਚ ਸਫਲਤਾ
+create: ਬਣਾਓ
+name: ਨਾਮ
+enable: ਯੋਗ ਕਰੋ
+disable: ਅਸਮਰੱਥ

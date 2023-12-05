@@ -7,3 +7,7 @@ ok: Ok
 config: Config
 rm: Ewechzehuelen
 setDone: Astellung Erfolleg
+create: Schafen
+name: Numm
+enable: Aktivéieren
+disable: Desaktivéieren

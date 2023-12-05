@@ -7,3 +7,7 @@ ok: 確認する
 config: 構成
 rm: 取り除く
 setDone: セットアップに成功
+create: 作成する
+name: 名前
+enable: 有効にする
+disable: 無効にする

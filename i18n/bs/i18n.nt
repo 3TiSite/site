@@ -7,3 +7,7 @@ ok: Uredu
 config: Config
 rm: Ukloni
 setDone: Postavljanje uspješno
+create: Stvoriti
+name: Ime
+enable: Omogući
+disable: Onemogući

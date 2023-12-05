@@ -7,3 +7,7 @@ ok: እሺ
 config: አዋቅር
 rm: አስወግድ
 setDone: ስኬትን በማቀናበር ላይ
+create: ፍጠር
+name: ስም
+enable: አንቃ
+disable: አሰናክል

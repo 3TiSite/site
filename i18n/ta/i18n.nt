@@ -7,3 +7,7 @@ ok: சரி
 config: கட்டமைப்பு
 rm: அகற்று
 setDone: வெற்றியை அமைத்தல்
+create: உருவாக்கு
+name: பெயர்
+enable: இயக்கு
+disable: முடக்கு

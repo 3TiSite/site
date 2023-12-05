@@ -7,3 +7,7 @@ ok: Ceart gu leòr
 config: Config
 rm: Thoir air falbh
 setDone: Soirbheachadh a shuidheachadh
+create: Cruthaich
+name: Ainm
+enable: Dèan comas
+disable: Cuir à comas

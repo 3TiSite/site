@@ -12,3 +12,8 @@ config: 配置
 rm: 移除
 
 setDone: 设置成功
+
+create: 创建
+name: 名称
+enable: 启用
+disable: 禁用

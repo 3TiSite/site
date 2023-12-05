@@ -7,3 +7,7 @@ ok: Ok
 config: Config
 rm: Kuhaa
 setDone: Pagtakda sa Kalampusan
+create: Paghimo
+name: Ngalan
+enable: Makahimo
+disable: Pag-disable

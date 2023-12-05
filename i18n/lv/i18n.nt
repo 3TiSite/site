@@ -7,3 +7,7 @@ ok: Labi
 config: Konfig
 rm: Noņemt
 setDone: Veiksmīga iestatīšana
+create: Izveidot
+name: Vārds
+enable: Iespējot
+disable: Atspējot

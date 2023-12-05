@@ -7,3 +7,7 @@ ok: Goed
 config: Config
 rm: Verwyder
 setDone: Stel sukses
+create: Skep
+name: Naam
+enable: Aktiveer
+disable: Deaktiveer

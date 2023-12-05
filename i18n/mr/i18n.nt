@@ -7,3 +7,7 @@ ok: ठीक आहे
 config: कॉन्फिग
 rm: काढा
 setDone: सेट करणे यशस्वी
+create: तयार करा
+name: नाव
+enable: सक्षम करा
+disable: अक्षम करा

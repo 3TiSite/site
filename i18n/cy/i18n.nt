@@ -7,3 +7,7 @@ ok: Iawn
 config: Config
 rm: Dileu
 setDone: Gosod Llwyddiant
+create: Creu
+name: Enw
+enable: Galluogi
+disable: Analluogi

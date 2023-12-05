@@ -7,3 +7,7 @@ ok: Okei
 config: Konfig
 rm: Eemalda
 setDone: Seadistamine õnnestus
+create: Loo
+name: Nimi
+enable: Luba
+disable: Keela
