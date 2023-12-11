@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.1.1
     version: 0.1.1
   '@~3/auth':
-    specifier: ^0.1.18
-    version: 0.1.18
+    specifier: ^0.1.19
+    version: 0.1.19
   '@~3/token':
     specifier: ^0.1.6
     version: 0.1.6
@@ -180,8 +180,8 @@ packages:
     dependencies:
       '@3-/on': 0.0.1
 
-  /@2-/cookie@0.1.5:
-    resolution: {integrity: sha512-4Xa2t7sWXb+G9nwxS+T5MelzRKsUL2Dd603uFTkBDjNHL08NbQfxV7C+ySNz6H5BT8zbmnvnV/uuaAs70cgDNw==}
+  /@2-/cookie@0.1.6:
+    resolution: {integrity: sha512-Cof60UliQwYeg1uwCKgR1y9ErfydCg8n64Ofga5CTOHsPzTEEf/KKa2843nEmibjiXGge/N1D2QJ9ajUwPknCA==}
     dev: false
 
   /@2-/copy@0.1.1:
@@ -826,11 +826,11 @@ packages:
   /@types/ms@0.7.33:
     resolution: {integrity: sha512-AuHIyzR5Hea7ij0P9q7vx7xu4z0C28ucwjAZC0ja7JhINyCnOw8/DnvAPQQ9TfOlCtZAmCERKQX9+o1mgQhuOQ==}
 
-  /@~3/auth@0.1.18:
-    resolution: {integrity: sha512-h37W4+GHtlgpHhfqTJLdeq30/l+tlc/AD7jhMELiS89J/5uELKTFv33dTLVGyDXJVkNBl/tbGzMNk+jpwGc50w==}
+  /@~3/auth@0.1.19:
+    resolution: {integrity: sha512-5eKJmHKMuXh8FFACu9Q23qtYPDR9IvY8AVNhZBRDcIDpwjKPIb1aWwsSobvv8d/KFKMNVuFLi7+8jbRNXT9sQg==}
     dependencies:
       '@2-/bc': 0.1.4
-      '@2-/cookie': 0.1.5
+      '@2-/cookie': 0.1.6
       '@2-/errer': 0.1.2
       '@2-/focus': 0.1.1
       '@2-/fp': 0.1.5
