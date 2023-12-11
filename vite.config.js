@@ -1,4 +1,6 @@
-import uridir from '@3-/uridir'
-import viteConf from '@3-/vite-conf'
+import uridir from "@3-/uridir";
+import viteConf from "@3-/vite-conf";
 
-export default await viteConf(uridir(import.meta))
+const conf = await viteConf(uridir(import.meta));
+conf.hmr = { clientPort: 443 };
+export default conf;

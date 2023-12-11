@@ -2,21 +2,22 @@
 Topbar
 Scroll
   b
-    +if M
-      <svelte:component this="{M}" {...A}/>
+    b
+      +if M
+        <svelte:component this="{M}" {...A}/>
     Foot
 </template>
 
 <script lang="coffee">
-> @~3/wait:Wait
-  @~3/scroll:Scroll
-  @3-/fetch/fTxt.js
-  ./Foot.svelte
+> ./Foot.svelte
   ./PAGE.coffee
   ./Topbar.svelte
   ./lib/SITE.js
+  @3-/fetch/fTxt.js
   @~3/h404
   @~3/nav:Nav
+  @~3/scroll:Scroll
+  @~3/wait:Wait
   svelte > tick
 
 A = {}

@@ -13,7 +13,5 @@ main
   justify-content center
   margin auto
   max-width 800px
-  min-height 100%
   position relative
 </style>
-
