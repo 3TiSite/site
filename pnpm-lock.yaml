@@ -9,11 +9,11 @@ dependencies:
     specifier: ^0.1.1
     version: 0.1.1
   '@~3/auth':
-    specifier: ^0.1.27
-    version: 0.1.27
+    specifier: ^0.1.28
+    version: 0.1.28
   '@~3/token':
-    specifier: ^0.1.7
-    version: 0.1.7
+    specifier: ^0.1.8
+    version: 0.1.8
 
 devDependencies:
   '@2-/bc':
@@ -345,8 +345,8 @@ packages:
       '@3-/utf8': 0.0.3
       nanoassert: 2.0.0
 
-  /@3-/proto@2.0.26:
-    resolution: {integrity: sha512-IFuwignzm/46j9mX3JaVgFCmmSrYDm0QkFQgvJGO3dQsiL9VbYcE7F2hDYDhJHWBR5biMdf/VR7eL4PmZx8uMQ==}
+  /@3-/proto@2.0.27:
+    resolution: {integrity: sha512-qTZpm8/WyFnefL+uZY3HFCx+AhdCwwuw1GU1AqCCkH+PD8i1a728Ix5UOKd3gaYEuus5Ox4L7ZLoh8s4Xy5k0w==}
     dependencies:
       '@3-/utf8': 0.0.3
       nanoassert: 2.0.0
@@ -384,10 +384,10 @@ packages:
   /@3-/write@0.0.1:
     resolution: {integrity: sha512-EvXAzDdmAynZyNJyMD5l90RfKhxYglJMJ5tXx3rj9VCUrFNhZnlRTIOJrteMtgtFsfTLf2hUrbh7TtPBnjgpLg==}
 
-  /@5-/auth@0.1.7:
-    resolution: {integrity: sha512-B0RnmhhvBvFRZ/Z2Kg2UGjA/n+gliT+C3e8Xh3g7BA8dp4geb7BgcxuYpb4A8It+SamDde3EDphR2UN47LjpWg==}
+  /@5-/auth@0.1.8:
+    resolution: {integrity: sha512-jvJGBvjOcPmlsj+obj+95YkenR5aPRCA4Q2jn7QplBp/BjUoxJ8OTviT+Qy+JWOdJSt33nUPipNq981JiAFmdA==}
     dependencies:
-      '@3-/proto': 2.0.26
+      '@3-/proto': 2.0.27
       '@~3/captcha': 0.1.53
     dev: false
 
@@ -396,10 +396,10 @@ packages:
     dependencies:
       '@3-/proto': 2.0.25
 
-  /@5-/token@0.1.2:
-    resolution: {integrity: sha512-V9uE6WbpDYtq+Yw6cOM01Mh207gZJF2HxKIDgC3sZDGJg8Ep7bh6Z3LHeNXVc329BY4Yu859Lyy3SOuDzPoOrQ==}
+  /@5-/token@0.1.3:
+    resolution: {integrity: sha512-5X2jiqG6xiSvEttkfnCHb2y0gGDJWR6oJr1IdbU7o1KVPoyFfDjuJ2753Ar77vUoPdMt/e65+/tRn6ZAusmdQw==}
     dependencies:
-      '@3-/proto': 2.0.26
+      '@3-/proto': 2.0.27
       '@~3/captcha': 0.1.53
     dev: false
 
@@ -834,8 +834,8 @@ packages:
   /@types/ms@0.7.33:
     resolution: {integrity: sha512-AuHIyzR5Hea7ij0P9q7vx7xu4z0C28ucwjAZC0ja7JhINyCnOw8/DnvAPQQ9TfOlCtZAmCERKQX9+o1mgQhuOQ==}
 
-  /@~3/auth@0.1.27:
-    resolution: {integrity: sha512-N5CGvzl29i7HcZUW6YJtg/C5MWHijFHEfNEyMWY7Wc4X88Z3GVbxw4ClF4nRPyT4vb5CHZjZcC9SvUbbZ6DgLA==}
+  /@~3/auth@0.1.28:
+    resolution: {integrity: sha512-dOrXzNcc+Urs0vLW5B4dyrisT+39vJnDcuf8BJiSc9QaBQMKBrgUDux729U6UAqBbxwAoN1Td3PpymTRKtYhWA==}
     dependencies:
       '@2-/bc': 0.1.4
       '@2-/cookie': 0.1.7
@@ -844,7 +844,7 @@ packages:
       '@2-/fp': 0.1.5
       '@2-/share': 0.1.3
       '@3-/lang': 0.1.8
-      '@5-/auth': 0.1.7
+      '@5-/auth': 0.1.8
       '@~3/box': 0.1.27
       '@~3/boxmd': 0.1.22
       '@~3/edit': 0.1.11
@@ -984,12 +984,12 @@ packages:
       '@2-/new': 0.1.1
     dev: true
 
-  /@~3/token@0.1.7:
-    resolution: {integrity: sha512-B8kKOGedACPyfgHERCfiKIAkcCVJv4L9bxuy+jr6c3pyYQrigzZaq0SI7bednOHPVxJOV2iQG4mc4vktMhkg9g==}
+  /@~3/token@0.1.8:
+    resolution: {integrity: sha512-SHlUpgBS1dFKMco8qRjBtBVlvF67rRCScukTKZnDqnvGNx7QJgxqy4KJ9mctu+ssD1k6OVXBre6aWaB67WLD6g==}
     dependencies:
       '@2-/copy': 0.1.1
       '@2-/tag0': 0.1.1
-      '@5-/token': 0.1.2
+      '@5-/token': 0.1.3
       '@~3/menu': 0.1.16
       '@~3/wait': 0.1.1
     dev: false
