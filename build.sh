@@ -11,6 +11,6 @@ cp ../conf/ol.js conf.js
 
 cd ..
 
-./sh/build.sh
+direnv exec . ./sh/build.sh
 
 rm src/conf.js
