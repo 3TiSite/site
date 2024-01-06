@@ -3,6 +3,12 @@
   "formatter": {
     "indentWidth": 2
   },
+  "files": {
+    "include": [
+      "./**/*.js",
+      "./**/*.mjs"
+    ]
+  },
   "linter": {
     "enabled": true,
     "rules": {
