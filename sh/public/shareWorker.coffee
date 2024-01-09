@@ -19,7 +19,7 @@ conn = =>
     onmessage:({data})=>
       # if data instanceof ArrayBuffer
         # data = new Uint8Array(data)
-      console.log 'data',[data]
+      # console.log 'data',[data]
       p = data.indexOf '['
       n = parseInt data.slice(0,p),36
       switch n
