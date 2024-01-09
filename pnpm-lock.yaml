@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.1.1
     version: 0.1.1
   '@~3/auth':
-    specifier: ^0.1.37
-    version: 0.1.37(@2-/bc@0.1.4)(@2-/cookie@0.1.7)(@2-/errer@0.1.2)(@2-/focus@0.1.1)(@2-/fp@0.1.5)(@2-/share@0.1.3)(@3-/lang@0.1.10)(@5-/auth@0.1.20)(@~3/box@0.1.28)(@~3/boxmd@0.1.23)(@~3/edit@0.1.11)(@~3/input_mail_a@0.1.5)(@~3/menu@0.1.16)(@~3/resend@0.1.4)(@~3/wait@0.1.1)
+    specifier: ^0.1.38
+    version: 0.1.38(@2-/bc@0.1.4)(@2-/cookie@0.1.7)(@2-/errer@0.1.2)(@2-/focus@0.1.1)(@2-/fp@0.1.5)(@2-/share@0.1.3)(@3-/lang@0.1.10)(@5-/auth@0.1.21)(@~3/box@0.1.28)(@~3/boxmd@0.1.23)(@~3/edit@0.1.11)(@~3/input_mail_a@0.1.5)(@~3/menu@0.1.16)(@~3/resend@0.1.4)(@~3/wait@0.1.1)
   '@~3/token':
     specifier: ^0.1.15
     version: 0.1.15(@2-/copy@0.1.1)(@2-/tag0@0.1.1)(@5-/token@0.1.11)(@~3/menu@0.1.16)(@~3/wait@0.1.1)
@@ -343,9 +343,10 @@ packages:
   /@3-/pair@0.0.2:
     resolution: {integrity: sha512-MyGSf0EstwsH9ERb6qHTOwyvPqQ696609WYuZQbLWDzEoug6uca0xo9vQd4ajqAy/jqbs9MveAF/SmJzWaapAQ==}
 
-  /@3-/proto@2.0.34:
-    resolution: {integrity: sha512-hkkRHHJrfztpP/zFZFiibNNlH1eGrLQwo/OjNIUP9+Z0PrkWWB0URSUIO6BMXPtFtyS4eT3f6m07kJiCiyyRlg==}
+  /@3-/proto@2.0.36:
+    resolution: {integrity: sha512-rTOcAKZKmpwX1QyiZGr0Wr4TVSe79nWdm9/+r7rxBdWdf4sNrwbMd8yMY/pGBJADk20+eA2P9zGY4NOouISoZw==}
     dependencies:
+      '@3-/u8': 0.1.1
       '@3-/utf8': 0.0.3
       nanoassert: 2.0.0
 
@@ -358,6 +359,9 @@ packages:
   /@3-/split@0.1.1:
     resolution: {integrity: sha512-LnuvzBdAvZj0SFN+92p+d6diYBjxT5NyVN4ngnNcsxoVyPjc75e4Ns/F/xQ/cnkGMmfB65ldxkvLjOXqQd0X7A==}
     dev: true
+
+  /@3-/u8@0.1.1:
+    resolution: {integrity: sha512-QtYx+bnacu0LlUcy40PaJG1ImQJh3kO75Fg2gDKnrzv7EmKKPDS2ZBhhmvGnV82PzmZDkCmyKOSC6Q59I4kxMA==}
 
   /@3-/uridir@0.0.2:
     resolution: {integrity: sha512-/3f/ja84V4dI3qmLWww0X7yuVZqO76oNpl2NFW5MIpyjhs35t16I9nv4Rp1blFBEQxdnY+y+uLT9tyNYvE/f8A==}
@@ -381,29 +385,29 @@ packages:
   /@3-/write@0.0.1:
     resolution: {integrity: sha512-EvXAzDdmAynZyNJyMD5l90RfKhxYglJMJ5tXx3rj9VCUrFNhZnlRTIOJrteMtgtFsfTLf2hUrbh7TtPBnjgpLg==}
 
-  /@5-/auth@0.1.20(@3-/proto@2.0.34)(@~3/captcha@0.1.61):
-    resolution: {integrity: sha512-UZ/K1iinljVX1a2m5mAMQxIXcGKvsCDgNG4VxtorNvakaxiSwk8GHI/C3UUOEvtwsT4A2qAEgzk3RFlgJwInRg==}
+  /@5-/auth@0.1.21(@3-/proto@2.0.36)(@~3/captcha@0.1.61):
+    resolution: {integrity: sha512-sjjlam7Lp10L2SaNlZ7eXpQYcGxx9K4Pt+eIzmoNNtTYcb4jeeBfTn6f1sLcx5oUyOPqif2SR5sgVHDI8nWlvw==}
     peerDependencies:
-      '@3-/proto': ^2.0.34
+      '@3-/proto': ^2.0.36
       '@~3/captcha': ^0.1.61
     dependencies:
-      '@3-/proto': 2.0.34
+      '@3-/proto': 2.0.36
       '@~3/captcha': 0.1.61(@2-/new@0.1.1)(@3-/render@0.0.1)(@5-/captcha@0.1.10)(@~3/box@0.1.28)
     dev: false
 
-  /@5-/captcha@0.1.10(@3-/proto@2.0.34):
+  /@5-/captcha@0.1.10(@3-/proto@2.0.36):
     resolution: {integrity: sha512-i2zwOEd1ucp+z7+u+qz2kf8FS/lF49oTPw+L4R6oZz/dvZpJneUGElJIN39mxWNVBWI0Afa7glxvIOINfa/Apg==}
     peerDependencies:
       '@3-/proto': ^2.0.34
     dependencies:
-      '@3-/proto': 2.0.34
+      '@3-/proto': 2.0.36
 
-  /@5-/token@0.1.11(@3-/proto@2.0.34):
+  /@5-/token@0.1.11(@3-/proto@2.0.36):
     resolution: {integrity: sha512-uRWBsB2CL6eo26xCQ4RrzxE14ZQn4k390OkYCsgNx9yUiGvQd1sK/GpSsYvN0ZxO/UgFOo5erVbx0zuaoNN00A==}
     peerDependencies:
       '@3-/proto': ^2.0.34
     dependencies:
-      '@3-/proto': 2.0.34
+      '@3-/proto': 2.0.36
     dev: false
 
   /@adobe/css-tools@4.3.2:
@@ -854,8 +858,8 @@ packages:
   /@types/ms@0.7.34:
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
 
-  /@~3/auth@0.1.37(@2-/bc@0.1.4)(@2-/cookie@0.1.7)(@2-/errer@0.1.2)(@2-/focus@0.1.1)(@2-/fp@0.1.5)(@2-/share@0.1.3)(@3-/lang@0.1.10)(@5-/auth@0.1.20)(@~3/box@0.1.28)(@~3/boxmd@0.1.23)(@~3/edit@0.1.11)(@~3/input_mail_a@0.1.5)(@~3/menu@0.1.16)(@~3/resend@0.1.4)(@~3/wait@0.1.1):
-    resolution: {integrity: sha512-ELlwtjvDQ0DqJHvzB4JnYCIWC07tQeAl/qOtk/TfQweeyObz2uUldxwg1JrWtdJJukr1dDWLRU28t4o8+Qt8mw==}
+  /@~3/auth@0.1.38(@2-/bc@0.1.4)(@2-/cookie@0.1.7)(@2-/errer@0.1.2)(@2-/focus@0.1.1)(@2-/fp@0.1.5)(@2-/share@0.1.3)(@3-/lang@0.1.10)(@5-/auth@0.1.21)(@~3/box@0.1.28)(@~3/boxmd@0.1.23)(@~3/edit@0.1.11)(@~3/input_mail_a@0.1.5)(@~3/menu@0.1.16)(@~3/resend@0.1.4)(@~3/wait@0.1.1):
+    resolution: {integrity: sha512-ry+vFfvv9DSahVfpMdfw3t2OYQfFuWKZs/MmdCTeicBRjFg6Op9gVaiC0XwXDigERazaGoi4yL3I7NM0c3CwAA==}
     peerDependencies:
       '@2-/bc': ^0.1.4
       '@2-/cookie': ^0.1.7
@@ -863,8 +867,8 @@ packages:
       '@2-/focus': ^0.1.1
       '@2-/fp': ^0.1.5
       '@2-/share': ^0.1.3
-      '@3-/lang': ^0.1.8
-      '@5-/auth': ^0.1.20
+      '@3-/lang': ^0.1.10
+      '@5-/auth': ^0.1.21
       '@~3/box': ^0.1.28
       '@~3/boxmd': ^0.1.23
       '@~3/edit': ^0.1.11
@@ -880,7 +884,7 @@ packages:
       '@2-/fp': 0.1.5
       '@2-/share': 0.1.3
       '@3-/lang': 0.1.10
-      '@5-/auth': 0.1.20(@3-/proto@2.0.34)(@~3/captcha@0.1.61)
+      '@5-/auth': 0.1.21(@3-/proto@2.0.36)(@~3/captcha@0.1.61)
       '@~3/box': 0.1.28(@2-/focus@0.1.1)(@2-/new@0.1.1)(@3-/on@0.0.1)(@~3/svelte_mount@0.0.1)
       '@~3/boxmd': 0.1.23(@~3/box@0.1.28)(@~3/md@0.1.10)(@~3/svelte_mount@0.0.1)
       '@~3/edit': 0.1.11
@@ -924,7 +928,7 @@ packages:
     dependencies:
       '@2-/new': 0.1.1
       '@3-/render': 0.0.1
-      '@5-/captcha': 0.1.10(@3-/proto@2.0.34)
+      '@5-/captcha': 0.1.10(@3-/proto@2.0.36)
       '@~3/box': 0.1.28(@2-/focus@0.1.1)(@2-/new@0.1.1)(@3-/on@0.0.1)(@~3/svelte_mount@0.0.1)
 
   /@~3/edit@0.1.11:
@@ -1044,7 +1048,7 @@ packages:
     dependencies:
       '@2-/copy': 0.1.1
       '@2-/tag0': 0.1.1
-      '@5-/token': 0.1.11(@3-/proto@2.0.34)
+      '@5-/token': 0.1.11(@3-/proto@2.0.36)
       '@~3/menu': 0.1.16
       '@~3/wait': 0.1.1
     dev: false
