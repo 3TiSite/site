@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.1.1
     version: 0.1.1
   '@3-/vite-conf':
-    specifier: ^0.1.2
-    version: 0.1.2(pug@3.0.2)(stylus@0.62.0)(vite@5.0.11)
+    specifier: ^0.1.3
+    version: 0.1.3(pug@3.0.2)(stylus@0.62.0)(vite@5.0.11)
   '@~3/auth':
     specifier: ^0.1.38
     version: 0.1.38(@2-/bc@0.1.4)(@2-/cookie@0.1.7)(@2-/errer@0.1.2)(@2-/focus@0.1.1)(@2-/fp@0.1.5)(@2-/share@0.1.3)(@3-/lang@0.1.10)(@5-/auth@0.1.21)(@~3/box@0.1.28)(@~3/boxmd@0.1.23)(@~3/edit@0.1.11)(@~3/input_mail_a@0.1.5)(@~3/menu@0.1.16)(@~3/resend@0.1.4)(@~3/wait@0.1.1)
@@ -465,8 +465,8 @@ packages:
       - typescript
     dev: false
 
-  /@3-/vite-conf@0.1.2(pug@3.0.2)(stylus@0.62.0)(vite@5.0.11):
-    resolution: {integrity: sha512-16Wt3gIOOXC34iQJMqMFEoXUbKgXXKD7ByEqr7VV8qzgFUUyHj+I9zk1DuxTrl3Fd3Z0PQ4kJVMg8fq28PImWQ==}
+  /@3-/vite-conf@0.1.3(pug@3.0.2)(stylus@0.62.0)(vite@5.0.11):
+    resolution: {integrity: sha512-gs26dczt8w8H2guRCjWwtruPvwceSVAce+qAg+qkrAnY9QGxCc0aJw/cPH3uPeUL0hdva68xWzu4q8lkdL9Iog==}
     dependencies:
       '@3-/read': 0.0.1
       '@3-/vite-base': 0.1.1(pug@3.0.2)(stylus@0.62.0)
