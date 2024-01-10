@@ -9,9 +9,14 @@ if [ ! -d "node_modules" ]; then
 fi
 
 ./sh/plugin.sh
-bun x plugin
+
+run() {
+  direnv exec . $@
+}
+
+run bun x plugin
 rm -rf node_modules/.vite vite.config.js.timestamp-*.mjs
-./sh/svg.var.coffee
+run ./sh/svg.var.coffee
 cd src
 rm -rf conf.js
 ln -s ../conf/dev.js conf.js
