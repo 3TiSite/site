@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@2-/conf':
+    specifier: ^0.1.1
+    version: 0.1.1
+
 devDependencies:
   '@2-/bc':
     specifier: ^0.1.4
@@ -178,6 +183,10 @@ packages:
     dependencies:
       '@3-/on': 0.0.1
     dev: true
+
+  /@2-/conf@0.1.1:
+    resolution: {integrity: sha512-GmZ4tx33JiD2JrXMOrwgnSVifMx15tOkNh1Z9IMNpR+CccaWFkHdl1Pf4KV6sgdWBz6HWWrEsvrXKnSaOCHtAw==}
+    dev: false
 
   /@2-/cookie@0.1.7:
     resolution: {integrity: sha512-2d20u1FCi+adJzZ74k39kjwuiHN/KaX2IS/+KymjLsfqLqJQJkqcDeprHx4IVAMQc23SrY3GmU47QJJ3dlrv/Q==}
