@@ -2,17 +2,9 @@ import { captcha } from "@~3/captcha"
 import lang from "@~3/lang"
 import { toastErr } from "@~3/toast"
 import fBin from "@3-/fetch/fBinPrefix.js"
-
+import AUTH from "@2-/conf/AUTH.js"
 import { API } from "~/conf.js"
 const fbin = fBin(API)
-
-let AUTH
-
-export const setAuth = (f) => {
-	console.log("setAuth", f)
-	console.trace()
-	AUTH = f
-}
 
 export const req = async (url, opt) => {
 	opt.method = opt.method || "POST"
