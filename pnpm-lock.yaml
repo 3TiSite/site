@@ -72,8 +72,8 @@ devDependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@~3/auth':
-    specifier: ^0.1.40
-    version: 0.1.40(@2-/bc@0.1.4)(@2-/conf@0.1.2)(@2-/cookie@0.1.7)(@2-/errer@0.1.2)(@2-/focus@0.1.1)(@2-/fp@0.1.5)(@2-/share@0.1.3)(@3-/lang@0.1.10)(@5-/auth@0.1.21)(@~3/box@0.1.28)(@~3/boxmd@0.1.23)(@~3/edit@0.1.11)(@~3/input_mail_a@0.1.5)(@~3/menu@0.1.16)(@~3/resend@0.1.4)(@~3/wait@0.1.1)
+    specifier: ^0.1.41
+    version: 0.1.41(@2-/bc@0.1.4)(@2-/conf@0.1.2)(@2-/cookie@0.1.7)(@2-/errer@0.1.2)(@2-/focus@0.1.1)(@2-/fp@0.1.5)(@2-/share@0.1.3)(@3-/lang@0.1.10)(@5-/auth@0.1.21)(@~3/box@0.1.28)(@~3/boxmd@0.1.23)(@~3/edit@0.1.11)(@~3/input_mail_a@0.1.5)(@~3/menu@0.1.16)(@~3/resend@0.1.4)(@~3/wait@0.1.1)
   '@~3/boxmd':
     specifier: ^0.1.23
     version: 0.1.23(@~3/box@0.1.28)(@~3/md@0.1.10)(@~3/svelte_mount@0.0.1)
@@ -1135,8 +1135,8 @@ packages:
     resolution: {integrity: sha512-Sk/uYFOBAB7mb74XcpizmH0KOR2Pv3D2Hmrh1Dmy5BmK3MpdSa5kqZcg6EKBdklU0bFXX9gCfzvpnyUehrPIuA==}
     dev: true
 
-  /@~3/auth@0.1.40(@2-/bc@0.1.4)(@2-/conf@0.1.2)(@2-/cookie@0.1.7)(@2-/errer@0.1.2)(@2-/focus@0.1.1)(@2-/fp@0.1.5)(@2-/share@0.1.3)(@3-/lang@0.1.10)(@5-/auth@0.1.21)(@~3/box@0.1.28)(@~3/boxmd@0.1.23)(@~3/edit@0.1.11)(@~3/input_mail_a@0.1.5)(@~3/menu@0.1.16)(@~3/resend@0.1.4)(@~3/wait@0.1.1):
-    resolution: {integrity: sha512-Z9JHiFYHuLzHmMpkrP58VDZ91yineNCM+u/tAajiuoIBMROnPnc8TZ2s0gWdpl3x2nHPVkPETHDNBIGKe1kavw==}
+  /@~3/auth@0.1.41(@2-/bc@0.1.4)(@2-/conf@0.1.2)(@2-/cookie@0.1.7)(@2-/errer@0.1.2)(@2-/focus@0.1.1)(@2-/fp@0.1.5)(@2-/share@0.1.3)(@3-/lang@0.1.10)(@5-/auth@0.1.21)(@~3/box@0.1.28)(@~3/boxmd@0.1.23)(@~3/edit@0.1.11)(@~3/input_mail_a@0.1.5)(@~3/menu@0.1.16)(@~3/resend@0.1.4)(@~3/wait@0.1.1):
+    resolution: {integrity: sha512-ATLJZ+TY9xLhqHM44br88+SU0hnUaC6Ke7NWEsavEbqtrkaArK4cEmXlIsOIlKWJe+xPHK7Q5u9j9AmijC/fyA==}
     peerDependencies:
       '@2-/bc': ^0.1.4
       '@2-/conf': ^0.1.2
