@@ -9,6 +9,8 @@ const fbin = fBin(API)
 let AUTH
 
 export const setAuth = (f) => {
+	console.log("setAuth", f)
+	console.trace()
 	AUTH = f
 }
 
