@@ -167,9 +167,6 @@ devDependencies:
   vite:
     specifier: ^5.0.11
     version: 5.0.11(lightningcss@1.22.1)(stylus@0.62.0)
-  '~':
-    specifier: link:./src/
-    version: link:src
 
 packages:
 
