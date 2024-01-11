@@ -5,9 +5,7 @@
   @~3/nav/a.js:
   @~3/svelte_mount:Mount
   @~3/has-mouse:HAS_MOUSE
-  # ./lib/Ws.coffee:
-
-  # ./lib/Ws.coffee:
+  ./lib/Ws.coffee:
 
 # > @3-/idb
 #
