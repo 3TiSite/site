@@ -1,6 +1,8 @@
 *.swp  
 .DS_Store
 
+public/.well-known/apple-developer-merchantid-domain-association
+
 vite.config.js.timestamp-*.mjs
 env.sh
 
