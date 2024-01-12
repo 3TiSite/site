@@ -14,7 +14,7 @@ nav(@&nav)
 <script lang="coffee">
 > @~3/topfix
   @~3/nav > splitSlash
-  @~3/nav/hashchange.js
+  @2-/route/hashchange.js
   @3-/on:On
   ./topbar/R.svelte
   ~/lib/SITE.js
