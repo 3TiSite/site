@@ -108,8 +108,8 @@ devDependencies:
     specifier: ^0.1.3
     version: 0.1.3
   '@~3/nav':
-    specifier: ^0.1.9
-    version: 0.1.9
+    specifier: ^0.1.10
+    version: 0.1.10
   '@~3/pay':
     specifier: link:../plugin/pay
     version: link:../plugin/pay
@@ -219,6 +219,10 @@ packages:
 
   /@2-/new@0.1.1:
     resolution: {integrity: sha512-e2JYA5Y4j9OW6QtHFgv9yvwuqDiR1Vbuq2FnZ/B72bF8ZvG8up792lUL4ZCe+xHtXfSrwQbz0EA8VzhJaPiuyA==}
+    dev: true
+
+  /@2-/route@0.1.2:
+    resolution: {integrity: sha512-JUg8uE8MHszb7EYgt9gQXVtcpWJNNnC2es/3RqUKPb0nmRfCQoAGlW+G1mRQcKO2ES7jM6LGMvwUiLmjfBDLMQ==}
     dev: true
 
   /@2-/share@0.1.3:
@@ -1293,9 +1297,10 @@ packages:
       simplex-noise: 4.0.1
     dev: true
 
-  /@~3/nav@0.1.9:
-    resolution: {integrity: sha512-VwxGAsnIxw+yP4YnYX+8OWZgDzhx0/VW7OUv/pwExDXDhUBtttqTuv3ZBQHLwP7IGCS05fuMFGJcN69q/tGuQw==}
+  /@~3/nav@0.1.10:
+    resolution: {integrity: sha512-8XlHi4DwNW/KhQhB9ioSZp3Y5eX4iWGrvYY7A4aS9TSqCOcUY6+vL7S5HYZKHbbK2H0klXx68/M1BF1FxeNy3g==}
     dependencies:
+      '@2-/route': 0.1.2
       '@3-/on': 0.0.1
       '@3-/split': 0.1.1
     dev: true
