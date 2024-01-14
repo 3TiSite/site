@@ -131,8 +131,8 @@ devDependencies:
     specifier: ^0.1.6
     version: 0.1.6
   '@~3/token':
-    specifier: link:../plugin/token
-    version: link:../plugin/token
+    specifier: ^0.1.16
+    version: 0.1.16(@2-/copy@0.1.1)(@2-/tag0@0.1.1)(@5-/token@0.1.13)(@~3/drop@0.1.7)(@~3/wait@0.1.1)
   '@~3/topfix':
     specifier: ^0.1.1
     version: 0.1.1
@@ -193,6 +193,10 @@ packages:
 
   /@2-/cookie@0.1.7:
     resolution: {integrity: sha512-2d20u1FCi+adJzZ74k39kjwuiHN/KaX2IS/+KymjLsfqLqJQJkqcDeprHx4IVAMQc23SrY3GmU47QJJ3dlrv/Q==}
+    dev: true
+
+  /@2-/copy@0.1.1:
+    resolution: {integrity: sha512-3S9HEwaYnIga89OMSik55t5CfhJRrSOaI1g9o8h66vidAA4R+ry0MLQHNgwOdPicm7F0BU/mMthX7+8IOOsV0g==}
     dev: true
 
   /@2-/doc@0.1.2:
@@ -523,6 +527,14 @@ packages:
     resolution: {integrity: sha512-i2zwOEd1ucp+z7+u+qz2kf8FS/lF49oTPw+L4R6oZz/dvZpJneUGElJIN39mxWNVBWI0Afa7glxvIOINfa/Apg==}
     peerDependencies:
       '@3-/proto': ^2.0.34
+    dependencies:
+      '@3-/proto': 2.0.36
+    dev: true
+
+  /@5-/token@0.1.13(@3-/proto@2.0.36):
+    resolution: {integrity: sha512-svGqG9Rxn7q4OLLb4qnZMHYWm29XM3G37ntDqE+7ApaPH6iuJrSlQZ6lJnCVkxbtzXfiIDNjESUtSEJ6gAVfzg==}
+    peerDependencies:
+      '@3-/proto': ^2.0.36
     dependencies:
       '@3-/proto': 2.0.36
     dev: true
@@ -1213,6 +1225,14 @@ packages:
       '@~3/box': 0.1.28(@2-/focus@0.1.1)(@2-/new@0.1.1)(@3-/on@0.0.1)(@~3/svelte_mount@0.0.1)
     dev: true
 
+  /@~3/drop@0.1.7(@~3/menu@0.1.16):
+    resolution: {integrity: sha512-l0VujsShRkEDWNZ7gtZmfMW3dCc3wMkDYGyTDc9/xTXYRIibkh2f0cmhyvT5Vgq2WMpKpB6x+OeeOMEmyfzbmg==}
+    peerDependencies:
+      '@~3/menu': ^0.1.16
+    dependencies:
+      '@~3/menu': 0.1.16
+    dev: true
+
   /@~3/edit@0.1.11:
     resolution: {integrity: sha512-S/Y6qLNEtlt+u8zzMF0laaeNbMmRDC7WJPM9LCMpYGJzEaVvjpq3kj6NCV3ZtjslNC63h66EKd2Lfx9fDLs33w==}
     dependencies:
@@ -1326,6 +1346,22 @@ packages:
     resolution: {integrity: sha512-K8Y1VyYyu+zFOhx5xD45DRrlB19ocnK7O6kAlqmCLxKbTTM1NFm6mb+r8GLH9xBuOCIokGBDCbkTGY50egOf3w==}
     dependencies:
       '@2-/new': 0.1.1
+    dev: true
+
+  /@~3/token@0.1.16(@2-/copy@0.1.1)(@2-/tag0@0.1.1)(@5-/token@0.1.13)(@~3/drop@0.1.7)(@~3/wait@0.1.1):
+    resolution: {integrity: sha512-2VTCyUzIzoIXfk4g6ntryGvcY7UkII3Ugo7LAAzv8EzoAtw08m388MhZpM75hj1Xj2C5CNDHNg8PO9HZ360tOw==}
+    peerDependencies:
+      '@2-/copy': ^0.1.1
+      '@2-/tag0': ^0.1.1
+      '@5-/token': ^0.1.13
+      '@~3/drop': ^0.1.7
+      '@~3/wait': ^0.1.1
+    dependencies:
+      '@2-/copy': 0.1.1
+      '@2-/tag0': 0.1.1
+      '@5-/token': 0.1.13(@3-/proto@2.0.36)
+      '@~3/drop': 0.1.7(@~3/menu@0.1.16)
+      '@~3/wait': 0.1.1
     dev: true
 
   /@~3/topfix@0.1.1:
