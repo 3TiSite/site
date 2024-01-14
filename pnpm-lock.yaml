@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@3-/vite-conf':
-    specifier: ^0.1.6
-    version: 0.1.6(pug@3.0.2)(stylus@0.62.0)
+    specifier: ^0.1.7
+    version: 0.1.7(pug@3.0.2)(stylus@0.62.0)
   '@3-/walk':
     specifier: ^0.0.1
     version: 0.0.1
@@ -131,8 +131,8 @@ devDependencies:
     specifier: ^0.1.6
     version: 0.1.6
   '@~3/token':
-    specifier: ^0.1.15
-    version: 0.1.15(@2-/copy@0.1.1)(@2-/tag0@0.1.1)(@5-/token@0.1.11)(@~3/menu@0.1.16)(@~3/wait@0.1.1)
+    specifier: link:../plugin/token
+    version: link:../plugin/token
   '@~3/topfix':
     specifier: ^0.1.1
     version: 0.1.1
@@ -193,10 +193,6 @@ packages:
 
   /@2-/cookie@0.1.7:
     resolution: {integrity: sha512-2d20u1FCi+adJzZ74k39kjwuiHN/KaX2IS/+KymjLsfqLqJQJkqcDeprHx4IVAMQc23SrY3GmU47QJJ3dlrv/Q==}
-    dev: true
-
-  /@2-/copy@0.1.1:
-    resolution: {integrity: sha512-3S9HEwaYnIga89OMSik55t5CfhJRrSOaI1g9o8h66vidAA4R+ry0MLQHNgwOdPicm7F0BU/mMthX7+8IOOsV0g==}
     dev: true
 
   /@2-/doc@0.1.2:
@@ -384,22 +380,22 @@ packages:
     resolution: {integrity: sha512-LnuvzBdAvZj0SFN+92p+d6diYBjxT5NyVN4ngnNcsxoVyPjc75e4Ns/F/xQ/cnkGMmfB65ldxkvLjOXqQd0X7A==}
     dev: true
 
-  /@3-/svelte-preprocess@5.0.8(coffeescript@2.7.0)(pug@3.0.2)(stylus@0.62.0)(svelte@4.2.8):
-    resolution: {integrity: sha512-NhdmLbGEWiOQgpcQkXIaq/xOBWWIOPbXR6D6CZLUWDnwSoz+kUTvqEEtdd7oRZmcrN8Q+cmytq3AM4ZLY+jaBw==}
+  /@3-/svelte-preprocess@5.0.9(coffeescript@2.7.0)(pug@3.0.2)(stylus@0.62.0)(svelte@4.2.8):
+    resolution: {integrity: sha512-JuLkE5OHyRIGEHP3ZMDozeZjFTXtBzIphFABexLWI7cNghQ7BmBJgn6IPpooJPEB/+MBWVOFSuLJ4SINE3aG9w==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
     peerDependencies:
-      '@babel/core': ^7.10.2
-      coffeescript: ^2.5.1
-      less: ^3.11.3 || ^4.0.0
-      postcss: ^7 || ^8
-      postcss-load-config: ^2.1.0 || ^3.0.0 || ^4.0.0
-      pug: ^3.0.0
-      sass: ^1.26.8
-      stylus: ^0.55.0
-      sugarss: ^2.0.0 || ^3.0.0 || ^4.0.0
-      svelte: ^3.23.0 || ^4.0.0-next.0 || ^4.0.0
-      typescript: '>=3.9.5 || ^4.0.0 || ^5.0.0'
+      '@babel/core': ^7.23.7
+      coffeescript: ^2.7.0
+      less: ^4.2.0
+      postcss: ^8
+      postcss-load-config: ^5.0.2
+      pug: ^3.0.2
+      sass: ^1.69.7
+      stylus: ^0.62.0
+      sugarss: ^4.0.1
+      svelte: ^4.2.8
+      typescript: ^5.3.3
     peerDependenciesMeta:
       '@babel/core':
         optional: true
@@ -456,11 +452,11 @@ packages:
     resolution: {integrity: sha512-9lhIu7q0/iDM3hCHm3FubzaWHzB83k57N1grPjuLtjdG2XBZEQ9ruKHk9qHOpVV+m2l4v9M5fmD8dFAf0faiag==}
     dev: true
 
-  /@3-/vite-base@0.1.5(pug@3.0.2)(stylus@0.62.0):
-    resolution: {integrity: sha512-RZfxPJOlREADTndmCuPpHUj38yJ+BDkE/nhg9fVdAohzMycLNsKfNS/EHtZw7fPhGvgytNg0hq4Ut+1T5HoCcA==}
+  /@3-/vite-base@0.1.6(pug@3.0.2)(stylus@0.62.0):
+    resolution: {integrity: sha512-cm1igIAB8QUg9BIpJ8cyzf55+6lTZWI3qxJT2elwIEgrn8Q5q6/uJpY2tOOwlO1/TUZD9OJVYKY6RhN7ELakqA==}
     dependencies:
       '@3-/coffee_plus': 0.1.2
-      '@3-/svelte-preprocess': 5.0.8(coffeescript@2.7.0)(pug@3.0.2)(stylus@0.62.0)(svelte@4.2.8)
+      '@3-/svelte-preprocess': 5.0.9(coffeescript@2.7.0)(pug@3.0.2)(stylus@0.62.0)(svelte@4.2.8)
       '@sveltejs/vite-plugin-svelte': 3.0.1(svelte@4.2.8)(vite@5.0.11)
       coffeescript: 2.7.0
       html-minifier-terser: 7.2.0
@@ -484,11 +480,11 @@ packages:
       - typescript
     dev: true
 
-  /@3-/vite-conf@0.1.6(pug@3.0.2)(stylus@0.62.0):
-    resolution: {integrity: sha512-dgYlEldMT9KKmKRIqMZzFpXCk1mdQuSbRwIwa5DxkR5+17nylK/EM6dtnwSUzKgaTgUOpD5Pe+7LGmWO4BBJjg==}
+  /@3-/vite-conf@0.1.7(pug@3.0.2)(stylus@0.62.0):
+    resolution: {integrity: sha512-AhQC13NlTlWfdYUmqbyCk8loQRh6hKOhn/fRO007PxXsJftDKvLj31RlZPVsZGJ/XqELhEp5ug7bKZI5OeAwcQ==}
     dependencies:
       '@3-/read': 0.0.1
-      '@3-/vite-base': 0.1.5(pug@3.0.2)(stylus@0.62.0)
+      '@3-/vite-base': 0.1.6(pug@3.0.2)(stylus@0.62.0)
       chalk: 5.3.0
     transitivePeerDependencies:
       - '@babel/core'
@@ -525,14 +521,6 @@ packages:
 
   /@5-/captcha@0.1.10(@3-/proto@2.0.36):
     resolution: {integrity: sha512-i2zwOEd1ucp+z7+u+qz2kf8FS/lF49oTPw+L4R6oZz/dvZpJneUGElJIN39mxWNVBWI0Afa7glxvIOINfa/Apg==}
-    peerDependencies:
-      '@3-/proto': ^2.0.34
-    dependencies:
-      '@3-/proto': 2.0.36
-    dev: true
-
-  /@5-/token@0.1.11(@3-/proto@2.0.36):
-    resolution: {integrity: sha512-uRWBsB2CL6eo26xCQ4RrzxE14ZQn4k390OkYCsgNx9yUiGvQd1sK/GpSsYvN0ZxO/UgFOo5erVbx0zuaoNN00A==}
     peerDependencies:
       '@3-/proto': ^2.0.34
     dependencies:
@@ -1338,22 +1326,6 @@ packages:
     resolution: {integrity: sha512-K8Y1VyYyu+zFOhx5xD45DRrlB19ocnK7O6kAlqmCLxKbTTM1NFm6mb+r8GLH9xBuOCIokGBDCbkTGY50egOf3w==}
     dependencies:
       '@2-/new': 0.1.1
-    dev: true
-
-  /@~3/token@0.1.15(@2-/copy@0.1.1)(@2-/tag0@0.1.1)(@5-/token@0.1.11)(@~3/menu@0.1.16)(@~3/wait@0.1.1):
-    resolution: {integrity: sha512-uBBUt7AEW/6Vx9PiuiqQzYvYk65v3m8pnPv3aGGPbI5hs+B5NJH2SUsLtU17sLQPOZtdgxaGWJDf9CEpfs7w8w==}
-    peerDependencies:
-      '@2-/copy': ^0.1.1
-      '@2-/tag0': ^0.1.1
-      '@5-/token': ^0.1.11
-      '@~3/menu': ^0.1.16
-      '@~3/wait': ^0.1.1
-    dependencies:
-      '@2-/copy': 0.1.1
-      '@2-/tag0': 0.1.1
-      '@5-/token': 0.1.11(@3-/proto@2.0.36)
-      '@~3/menu': 0.1.16
-      '@~3/wait': 0.1.1
     dev: true
 
   /@~3/topfix@0.1.1:
