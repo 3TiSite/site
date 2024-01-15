@@ -13,7 +13,7 @@ export const req = async (url, opt) => {
 	opt.credentials = "include"
 	try {
 		const r = await fget(API + url, opt)
-		console.log("get set cookie", r.headers.get("set-cookie"))
+		console.log("get set cookie", url, [...r.headers.entries()])
 		return new Uint8Array(await r.arrayBuffer())
 	} catch (r) {
 		const { status } = r
