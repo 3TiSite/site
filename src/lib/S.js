@@ -1,10 +1,10 @@
 import { captcha } from "@~3/captcha"
 import lang from "@~3/lang"
 import { toastErr } from "@~3/toast"
-import fBin from "@3-/fetch/fBinPrefix.js"
+import fget from "@3-/fetch"
 import AUTH from "@2-/conf/AUTH.js"
 import { API } from "~/conf.js"
-const fbin = fBin(API)
+// const fbin = fBin(API)
 
 export const req = async (url, opt) => {
 	opt.method = opt.method || "POST"
@@ -12,7 +12,9 @@ export const req = async (url, opt) => {
 	opt.headers["Accept-Language"] = lang()
 	opt.credentials = "include"
 	try {
-		return await fbin(url, opt)
+		const r = await fget(API + url, opt)
+		console.log("get set cookie", r.headers.get("set-cookie"))
+		return new Uint8Array(await r.arrayBuffer())
 	} catch (r) {
 		const { status } = r
 		if (status) {
